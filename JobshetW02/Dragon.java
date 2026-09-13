@@ -22,7 +22,7 @@ public class Dragon {
 
     // memindahkan Dragon berdasarkan direction 
     public void move(int steps) {
-        switch (this.direction) {
+        switch (direction) {
             case 1: // Atas
                 y += steps;
                 break;
